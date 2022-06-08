@@ -1,0 +1,36 @@
+apiVersion: v1
+entries:
+  dokuwiki:
+  - annotations:
+      category: Wiki
+    apiVersion: v2
+    appVersion: 20200729.0.0
+    created: "2022-06-08T16:00:41.781211723-03:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      version: 1.x.x
+    description: DokuWiki is a standards-compliant wiki optimized for creating documentation.
+      Designed to be simple to use for small organizations, it stores all data in
+      plain text files so no database is required.
+    digest: 2a60baca78b5f202a1d4e8ed5e9fe18edf77120ae92a8cba56a3f544e13a007e
+    home: https://github.com/bitnami/charts/tree/master/bitnami/dokuwiki
+    icon: https://bitnami.com/assets/stacks/dokuwiki/img/dokuwiki-stack-220x234.png
+    keywords:
+    - dokuwiki
+    - wiki
+    - http
+    - web
+    - application
+    - php
+    maintainers:
+    - name: Bitnami
+      url: https://github.com/bitnami/charts
+    name: dokuwiki
+    sources:
+    - https://github.com/bitnami/bitnami-docker-dokuwiki
+    - http://www.dokuwiki.org/
+    urls:
+    - dokuwiki-12.5.3.tgz
+    version: 12.5.3
+generated: "2022-06-08T16:00:41.779131905-03:00"
